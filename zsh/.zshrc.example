@@ -1,0 +1,9 @@
+source /path/to/dotfiles/zsh/config.zsh
+source /path/to/dotfiles/zsh/aliases.sh
+source /path/to/dotfiles/zsh/zplug.zsh
+
+# autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+# fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
