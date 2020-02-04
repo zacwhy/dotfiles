@@ -1,7 +1,12 @@
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 setopt AUTO_CD
 
 
-# completion
+#
+# Completion
+#
 autoload -Uz compinit && compinit
 
 # case insensitive path-completion
