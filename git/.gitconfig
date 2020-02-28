@@ -1,9 +1,11 @@
 [user]
 	useconfigonly = true
 [alias]
+	ap = add --patch
 	d = diff
 	dc = diff --cached
 	c = commit --verbose
+	l = log
 	s = status
 [pull]
 	rebase = true
