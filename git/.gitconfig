@@ -1,5 +1,3 @@
-[user]
-	useconfigonly = true
 [alias]
 	ap = add --patch
 	d = diff
@@ -7,5 +5,9 @@
 	c = commit --verbose
 	l = log
 	s = status
+[core]
+	excludesfile = ~/.gitignore
 [pull]
 	rebase = true
+[user]
+	useconfigonly = true
