@@ -4,6 +4,7 @@ alias ls='ls -FG'
 alias l='ls -A'
 alias ll='ls -Alh'
 
+alias csv='column -s, -t'
 alias rm='rm -i'
 
 # No arguments: `git status`
