@@ -3,8 +3,7 @@
 	d = diff
 	dc = diff --cached
 	c = commit --verbose
-	l = log
-	s = status
+	l = log --oneline --graph
 [core]
 	excludesfile = ~/.gitignore
 [pull]
