@@ -18,3 +18,7 @@ g() {
 }
 
 compdef g=git
+
+notify() {
+  osascript -e 'display notification "'$1'" with title "'$2'"'
+}
