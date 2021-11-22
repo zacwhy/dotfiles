@@ -2,11 +2,22 @@
 	ap = add --patch
 	d = diff
 	dc = diff --cached
-	c = commit --verbose
-	l = log --oneline --graph
+	c = commit
+	l = log --graph --pretty=logformat
+	lp = l @{push}..
+	lm = l master..
+	s = status --branch --short
+	sl = stash list
+	sp = stash pop
+[commit]
+	verbose = true
 [core]
 	excludesfile = ~/.gitignore
 [pull]
 	rebase = true
+[pretty]
+	logformat = %C(green)%h%C(reset) %s %C(blue)(%ar by %an)%C(red)%d%C(reset)
+[rebase]
+	autoStash = true
 [user]
 	useconfigonly = true
